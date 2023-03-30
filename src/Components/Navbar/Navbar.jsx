@@ -15,16 +15,7 @@ const Navbar = () => {
     setNav(!nav)
   }
   
-  useEffect(()=>{
-    const hanle = ()=>{
-      if (window.scrollY >= 90) {
-        setShadow(true)
-      } else {
-        setShadow(false)
-      }
-     }
-     window.addEventListener("scroll", hanle)
-  },[])
+ 
   return (
     <div className=" bg-sky-100 fixed w-full h-20 shadow-2xl z-[100]" >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
@@ -66,7 +57,7 @@ const Navbar = () => {
             : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
         }>
           <div>
-              <div className="flex w-full items-center justify-between">
+              <div className="flex w-full items-center ">
                 <Link to="/">
                 <span className="text-sky-700 font-bold text-[40px]">
                   Jm  
@@ -74,15 +65,15 @@ const Navbar = () => {
 
                 </Link>
                 
-                <button onClick={menu} className="text-[30px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer hover:text-sky-700">
+                <button onClick={menu} className=" ml-[50px] text-[30px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer hover:text-sky-700">
                  <RiCloseFill/> 
                 </button>
                 </div>
-              <div className=" border-b border-gray-300 my-4">
-                <p className=" text-sm uppercase w-[85%] md:w-[90%] py-4">El fracaso es la manera de empezar de nuevo, pero más inteligente</p>
+              <div className=" border-gray-300 my-4">
+                <p className=" text-sm uppercase w-[55%] md:w-[90%] py-4">El fracaso es la manera de empezar de nuevo, pero más inteligente</p>
               </div>
               </div>
-              <div className=" py-4 flex flex-col">
+              <div className=" py-1 flex flex-col">
                 <ul className=" uppercase font-bold">
                  
                   <Link>
@@ -90,28 +81,28 @@ const Navbar = () => {
                       setNav(false)
                       handleLink(e,"#inicio")}
                       } 
-                      className=" text-sm py-4 hover:text-sky-700">Inicio</li>
+                      className=" text-sm py-3 hover:text-sky-700">Inicio</li>
                   </Link>
                   <Link>
                     <li onClick={(e) => { 
                       setNav(false)
                       handleLink(e,"#Educacion")}
                       } 
-                      className=" text-sm py-4 hover:text-sky-700">Educacion</li>
+                      className=" text-sm py-3 hover:text-sky-700">Educacion</li>
                   </Link>
                   <Link>
                     <li onClick={(e) => { 
                       setNav(false)
                       handleLink(e,"#habilidades")}
                       } 
-                      className=" text-sm py-4 hover:text-sky-700">Habilidades</li>
+                      className=" text-sm py-3 hover:text-sky-700">Habilidades</li>
                   </Link>
                   <Link>
                     <li onClick={(e) => { 
                       setNav(false)
                       handleLink(e,"#proyectos")}
                       } 
-                      className=" text-sm py-4 hover:text-sky-700">Proyectos</li>
+                      className=" text-sm py-3 hover:text-sky-700">Proyectos</li>
                   </Link>
                   <Link>
                     <li onClick={(e) => { 
