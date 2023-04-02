@@ -22,7 +22,7 @@ const Main = () => {
                     Soy un desarrolador Front-End jr de Venezuela, vivo actualmente en Argentina. Estoy centrado (especializado en el mantenimiento y contruccion de paginas web) en crear aplicaciones de Front-End.
                 </p>
                 <div className=' py-4 flex items-center justify-between max-w-[330px] mx-auto'>
-                    <Link className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
+                    <Link to="https://www.linkedin.com/in/joeyker-mayora-3b9993265/" target="_blank" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
                       <FaLinkedinIn/>
                     </Link>
                     <Link  target="_blank" to="https://github.com/Joeyker-Mayora" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">

@@ -118,7 +118,7 @@ const Navbar = () => {
                   <p className=" uppercase tracking-widest">Redes</p>
 
                   <div className="flex items-center w-full my-4 sm:w-[80%] ">
-                    <Link className=" text-[30px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer hover:text-sky-700 ease-in duration-500">
+                    <Link to="https://www.linkedin.com/in/joeyker-mayora-3b9993265/" target="_blank" className=" text-[30px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer hover:text-sky-700 ease-in duration-500">
                       <FaLinkedinIn/>
                     </Link>
                     <Link  target="_blank" to="https://github.com/Joeyker-Mayora" className=" ml-[20px] text-[30px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer hover:text-sky-700 ease-in duration-500 ">
