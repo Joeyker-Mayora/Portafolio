@@ -33,10 +33,10 @@ const Contact = () => {
                     <p className=" pt-8 uppercase">Conectate conmigo</p>
                     <div className=" flex items-center justify-between py-4">
                     <div className=' py-4 flex items-center justify-between max-w-[330px] mx-auto'>
-                    <div className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
+                    <Link target="_blank" to="https://www.linkedin.com/in/joeyker-mayora-3b9993265/" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
                       <FaLinkedinIn/>
-                    </div>
-                    <Link target="_blank" to="https://github.com/Joeyker-Mayora" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
+                    </Link>
+                   <Link target="_blank" to="https://github.com/Joeyker-Mayora" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
                       <FaGithub/>
                     </Link>
                     <Link target="_blank" to="mailto:oswaldo_avilez@outlook.es" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
