@@ -16,7 +16,7 @@ const Main = () => {
                 <p className=' uppercase tracking-widest text-sm'>El fracaso es la manera de empezar de nuevo, pero más inteligente</p>
                 <h1 className=' py-4 text-gray-700 font-bold text-4xl'>Hola, soy <span className='text-sky-700'>Joeyker Mayora</span></h1>
                 <h1 className=' py-2 text-gray-700 font-bold text-4xl'>
-                    Un desarollador web Front-End
+                    Un Desarollador de Software Front-End
                 </h1>
                 <p className=' py-4 text-gray-600 mx-auto max-w-[70%]'>
                     Soy un desarrolador Front-End jr de Venezuela, vivo actualmente en Argentina. Estoy centrado (especializado en el mantenimiento y contruccion de paginas web) en crear aplicaciones de Front-End.

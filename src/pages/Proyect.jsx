@@ -7,9 +7,9 @@ const Proyect = () => {
     <div className='py-20'>
         <div className=' max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className=' col-span-4'>
-            <h1 className=" uppercase text-xl text-sky-700 tracking-widest">Proyecto</h1>
+            <h1 className=" uppercase text-xl text-sky-700 tracking-widest">E-commerce</h1>
              <h1 className=' py-2 text-gray-700 font-bold text-4xl'>Descripcion</h1>
-                <p className=' py-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quis architecto provident obcaecati deserunt odio, aliquam, ex ad dolor molestias quos molestiae. Eum nisi minus eveniet commodi, unde vero molestias?</p>
+                <p className=' py-4'>Es una Tienda de deportes basada en accesorios de Beisbol, futbol, Baloncesto, Futbol Americano, contiene un filtrado de productos, un formulario para registrarse, manejo el estado global de la página web con la herramienta Redux Toolkit.</p>
                 <Link to="https://github.com/Joeyker-Mayora/deportes" target="_blank" className=' text-xl font-bold p-3 bg-gradient-to-r from-sky-800 to-sky-300 rounded-xl   text-gray-50 hover:scale-105 ease-in duration-300'>Codigo</Link>
                 <Link to="https://deportes-kappa.vercel.app/" target="_blank" className=' ml-3  text-xl font-bold p-3 bg-gradient-to-r from-sky-800 to-sky-300 hover:scale-105  rounded-xl mt-4 ease-in duration-300 text-gray-50 '>Aplicacion</Link>
 
