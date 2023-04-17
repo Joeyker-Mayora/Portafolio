@@ -19,7 +19,7 @@ const Main = () => {
                     Un Desarollador de Software Front-End
                 </h1>
                 <p className=' py-4 text-gray-600 mx-auto max-w-[70%]'>
-                    Soy un desarrolador Front-End jr de Venezuela, vivo actualmente en Argentina. Estoy centrado (especializado en el mantenimiento y contruccion de paginas web) en crear aplicaciones de Front-End.
+                    Soy un desarrollador Front-End jr de Venezuela, vivo actualmente en Argentina. Estoy centrado (especializado en el mantenimiento y construccion de paginas web) en crear aplicaciones de Front-End.
                 </p>
                 <div className=' py-4 flex items-center justify-between max-w-[330px] mx-auto'>
                     <Link to="https://www.linkedin.com/in/joeyker-mayora-3b9993265/" target="_blank" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">

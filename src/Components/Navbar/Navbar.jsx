@@ -8,7 +8,8 @@ const Navbar = () => {
   const [nav, setNav]= useState(false)
   const [shadow, setShadow] = useState(false)
   const handleLink = (e, id) => {
-    e.preventDefault(); window.location.replace('/'+ id);
+    e.preventDefault(); 
+    window.location.replace('/'+ id);
   }
 
   const menu = () => {

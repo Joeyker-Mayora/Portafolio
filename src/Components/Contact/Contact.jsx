@@ -26,7 +26,7 @@ const Contact = () => {
                             Desarrollador Front-End 
                         </h1>
                         <p className=" py-4">
-                            Estoy disponible para puestos independientes a tiempo completo. Ponte en contacto conmigo y conversemos
+                            Estoy disponible para puestos independientes a tiempo completo. Ponte en contacto conmigo y convercemos
                         </p>
                     </div>
  <div>
