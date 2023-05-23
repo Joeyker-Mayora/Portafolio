@@ -10,8 +10,9 @@ const Proyects = () => {
      <ProyectItem/>
      
 
-
+    
     </div>
+    
 
     </div>
 </div>
