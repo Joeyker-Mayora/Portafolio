@@ -1,7 +1,5 @@
-import { Provider } from 'react-redux';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
-import { store } from './app/store';
 import Skills from './Components/Skills/Skills';
 import Main from './Components/Main/Main';
 import Contact from './Components/Contact/Contact';
@@ -16,7 +14,7 @@ import Proyectport from './pages/proyectport';
 
 function App() {
   return (
-    <Provider store={store}>
+    
       <BrowserRouter >
     <Navbar/>
       <Routes>
@@ -35,7 +33,7 @@ function App() {
    </BrowserRouter>
      
       
-    </Provider>
+    
   
    
      

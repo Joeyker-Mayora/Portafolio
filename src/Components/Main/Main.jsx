@@ -6,8 +6,6 @@ import Certificados from "../Certificados/Certificados";
 import Proyects from "../Proyects/Proyects";
 import Contact from "../Contact/Contact";
 
-
-
 const Main = () => {
   return (
     <div id="inicio" className=" w-full h-screen text-center">
@@ -21,17 +19,34 @@ const Main = () => {
                 <p className=' py-4 text-gray-600 mx-auto max-w-[70%]'>
                     Soy un desarrollador Front-End jr de Venezuela, vivo actualmente en Argentina. Estoy centrado (especializado en el mantenimiento y construccion de paginas web) en crear aplicaciones de Front-End.
                 </p>
+                 
                 <div className=' py-4 flex items-center justify-between max-w-[330px] mx-auto'>
-                    <Link to="https://www.linkedin.com/in/joeyker-mayora-avilez-3b9993265/" target="_blank" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
+                    
+                    <Link 
+                    to="https://www.linkedin.com/in/joeyker-mayora-avilez-3b9993265/" 
+                    target="_blank" 
+                    className="btn">
                       <FaLinkedinIn/>
                     </Link>
-                    <Link  target="_blank" to="https://github.com/Joeyker-Mayora" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
+                    
+                    <Link  
+                    target="_blank" 
+                    to="https://github.com/Joeyker-Mayora" 
+                    className="btn">
                       <FaGithub/>
                     </Link>
-                    <Link target="_blank" to="mailto:oswaldo_avilez@outlook.es" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
+
+                    <Link 
+                    target="_blank" 
+                    to="mailto:oswaldo_avilez@outlook.es" 
+                    className="btn">
                       <AiOutlineMail/>
                     </Link>
-                    <Link target="_blank" to="https://wa.me/5491127029297" className=" text-[35px] rounded-full shadow-lg p-2 shadow-gray-400 cursor-pointer      hover:text-sky-700 ease-in duration-500 hover:scale-105">
+
+                    <Link 
+                    target="_blank" 
+                    to="https://wa.me/5491127029297" 
+                    className="btn">
                       <AiOutlineWhatsApp/>
                     </Link>
                     
@@ -40,9 +55,9 @@ const Main = () => {
             </div>
         </div>
         <Certificados/>
-       <Skills/>
-       <Proyects/>
-       <Contact/>
+        <Skills/>
+        <Proyects/>
+        <Contact/>
     </div>
   )
 }

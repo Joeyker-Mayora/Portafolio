@@ -2,11 +2,10 @@ import { Link } from "react-router-dom"
 import { RiCloseFill  } from "react-icons/ri";
 import {  AiOutlineMail, AiOutlineMenu, AiOutlineWhatsApp } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
   const [nav, setNav]= useState(false)
-  const [shadow, setShadow] = useState(false)
   const handleLink = (e, id) => {
     e.preventDefault(); 
     window.location.replace('/'+ id);
@@ -21,7 +20,7 @@ const Navbar = () => {
     <div className=" bg-sky-100 fixed w-full h-20 shadow-2xl z-[100]" >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         
-        <span className="text-sky-700 font-bold text-[40px]">
+        <span className="text-sky-700 font-bold text-[40px] ml-10">
        Jm  
       </span>
         <div>
